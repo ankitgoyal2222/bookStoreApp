@@ -6,7 +6,7 @@ import { Navigate, Route, Routes } from "react-router-dom"
 import Signup from './components/Signup'
 import  { Toaster } from 'react-hot-toast';
 import { useAuth } from "./context/AuthProvider";
-import About from './about/about'
+import About from './about/About.jsx'
 import Contact from './contact/Contact'
 
 const App = () => {
