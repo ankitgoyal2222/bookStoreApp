@@ -1,6 +1,6 @@
 import React from 'react';
 import book from "../../public/book7.png";
-
+import { Link } from "react-router-dom";
 function Banner() {
   return (
     <>
@@ -28,7 +28,9 @@ function Banner() {
               <input type="text" className="grow" placeholder="Email" />
             </label>
           </div>
-          <button className="btn mt-6 btn-secondary">Get Started</button>
+          <Link to="/course">
+        <button className="btn mt-6 btn-secondary">Get Started</button>
+      </Link>
         </div>
 
         <div className='order-1 w-full md:w-1/2'>
